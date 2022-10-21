@@ -1,0 +1,65 @@
+.produto-container {
+
+    display: flex;
+ justify-content: center;
+    column-gap: 10px;
+    margin: 20px 0px;
+    background-color: gray;
+}
+
+.produto-imagem__container {
+    align-self: center;
+
+}
+
+.produto-container img {
+
+    width: 500px;
+    height: 500px;
+   
+}
+
+.nome-produto {
+    font-size: 36px;
+}
+
+.produto-preco{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 20px 0 20px;
+}
+
+.produto-descricao__container {
+
+    border-radius: 8px;
+    padding: 15px;
+    background-color: blue;
+}
+
+.product__avaiability {
+    font-size: 12px;
+}
+
+label {
+    margin: 20px 0px;
+    display: block;
+}
+
+input {
+    width: 30px;
+    padding: 5px;
+    border: none;
+}
+
+
+
+button {
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+    cursor: pointer;
+}

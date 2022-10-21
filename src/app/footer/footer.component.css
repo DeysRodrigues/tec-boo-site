@@ -1,0 +1,100 @@
+.rodape-embaixo {
+
+    text-align: center;
+    padding: 30px;
+    margin: -8px;
+    color: rgb(192, 192, 192);
+    background-color: #07071a;
+}
+
+.rodape-emcima {
+
+    padding: 30px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    background-color: #0c0c22;
+}
+
+/*------ Editando o lado 1 (esquerdo) da parte de cima do rodapé ------*/
+
+.rodape-emcima__lado1 h3 {
+
+    text-align: center;
+    font-weight: 500;
+    color: aliceblue;
+
+
+}
+
+.form {
+
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #07071a;
+
+
+}
+
+.rodape-emcima input {
+
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(253, 253, 253);
+}
+
+
+.botao {
+
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #4d4dff;
+    color: white;
+
+    
+}
+
+/*------ Editando o lado 2 (direito) da parte de cima do rodapé ------*/
+
+.rodape-emcima__lado2 {
+    background-color: transparent;
+
+}
+
+.rodape-emcima__lado2 h2{
+
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.rodape-emcima__lado2--icons {
+
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+    padding: 10px;
+
+}
+/* Definindo as cores dos icones do menu parte 2 */
+.fa-facebook, .fa-instagram, .fa-pinterest {
+    color: white;
+
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-pinterest:hover {
+    color: #4d4dff;
+}

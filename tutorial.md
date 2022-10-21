@@ -29,9 +29,10 @@ para a criação de uma aplicação em angular!
 + Abrir essa pasta com o Visual Studio Code;
 + Abrir um terminal em "Terminal" no menu superior do VSCode e selecionar o cmd(Command Prompt)
 + Instalar o Angular/cle utilizando o cmd:
-    * ` npm install -g @angular/cli `
+     ` npm install -g @angular/cli `
 + Criar um novo projeto;
-    * `ng new nome-do-projeto`
-    * Nesse caso o nome do projeto foi:
+     * `ng new nome-do-projeto`
+     * Nesse caso o nome do projeto foi:
+     * `ng new tec-boo`
     
   

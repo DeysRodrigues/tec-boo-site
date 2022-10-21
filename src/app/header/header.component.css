@@ -1,0 +1,143 @@
+
+
+/*header*/
+.main {
+
+    background-color: #07071a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -8px;
+    padding: 5px;
+    gap: 100px;
+    height: 70px;
+
+
+}
+
+/*-------- configurando o icon do menu e sua aba ----------*/
+
+/*icon do menu*/
+.fa-bars {
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.menu {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+/*Tirando os pontos da lista principal*/
+.menu-ul {
+    list-style-type: none;
+}
+
+
+.menu-aba {
+
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.menu:hover .menu-aba {
+    display: block;
+}
+
+.menu-aba a {
+
+    text-decoration: none;
+    display: flex;
+    border-radius: 10px;
+    color: rgb(1, 0, 3);
+    background-color: rgb(211, 211, 211);
+    padding: 15px 20px;
+    margin: 3px;
+
+}
+
+
+.menu-aba a:hover {
+    display: flex;
+    border-radius: 10px;
+    margin: 5px;
+    color: aliceblue;
+    background: #4d4dff;
+
+}
+
+
+/*-----------------------------------*/
+
+/*Palavra "tecBoo*/
+.menu-tecboo {
+    color: aliceblue;
+    font-size: 30px;
+    margin-right: 300px;
+
+
+}
+
+/*Conteiner dos elementos de pesquisa*/
+.pesquisa {
+
+    padding: 10px;
+
+}
+
+.pesquisa-text {
+    /*input*/
+    border-radius: 20px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    text-indent: 10px;
+
+}
+
+
+
+.pesquisa-botao {
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    margin-left: 10px;
+}
+
+.fa-magnifying-glass {
+    /*icon lupa*/
+    color: #07071a;
+    font-size: 15px;
+
+}
+
+/*o container da bag*/
+.bag {
+
+    margin-right: 50px;
+    /*colocando a bag um pouco mais ao centro*/
+
+}
+
+/*o icon*/
+.fa-bag-shopping {
+
+
+    color: aliceblue;
+    /*alterando o tamanho do icon*/
+    font-size: 26px;
+    padding: 5px;
+
+}

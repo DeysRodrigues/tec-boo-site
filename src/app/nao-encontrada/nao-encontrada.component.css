@@ -1,0 +1,21 @@
+.container {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.container i {
+
+    font-size: 150px;
+    color: #4D4DFF;
+}
+
+.container h2 {
+
+    font-size: 50px;
+  
+}
